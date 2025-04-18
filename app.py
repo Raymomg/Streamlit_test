@@ -102,7 +102,7 @@ def main():
         rf"테스트 데이터  MSE: {round(mse_test, 4)}, $R^2$: {round(r2_test, 2)}",
         fontsize=18,
     )
-    st.plotly_chart(fig)
+    st.pyplot(fig)
 
         
 
