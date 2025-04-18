@@ -1,7 +1,6 @@
 
 import streamlit as st
 import pandas as pd
-import seaborn as sns
 from sklearn.model_selection import train_test_split
 from xgboost import XGBRegressor
 from sklearn.metrics import mean_squared_error
